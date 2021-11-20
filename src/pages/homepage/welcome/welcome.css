@@ -1,0 +1,27 @@
+.homepage__welcome {
+  font-family: "Work Sans", sans-serif;
+  height: 115vh;
+  padding-top: 80px;
+  margin-bottom: -80px;
+}
+
+.homepage__welcome .row {
+  display: flex;
+  align-items: center;
+}
+
+.homepage__welcome h1 {
+  font-family: "Proza Libre", sans-serif;
+  font-weight: 800;
+}
+
+.homepage__welcome-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .homepage__welcome-text {
+    margin-left: -5%;
+  }
+}

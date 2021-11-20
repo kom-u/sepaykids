@@ -1,0 +1,24 @@
+.product__detail {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+.product__detail h1 {
+  font-family: "Proza Libre", sans-serif;
+  font-weight: 800;
+}
+.product__detail p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+.product__detail-image {
+  object-fit: scale-down;
+  background: white;
+  border-radius: 30px;
+}
+
+.product__detail-playstore {
+  max-width: 200px;
+}

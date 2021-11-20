@@ -1,0 +1,94 @@
+.homepage__contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Work Sans", sans-serif;
+}
+
+.homepage__contact h1 {
+  font-family: "Proza Libre", sans-serif;
+  font-weight: 800;
+}
+.homepage__contact h2 {
+  font-weight: 400;
+}
+
+.com__service-button {
+  display: inline-block;
+  position: relative;
+}
+
+.com__service-button > input[type="radio"] {
+  visibility: hidden;
+  position: absolute;
+}
+
+.com__service-button > label {
+  font-weight: 500;
+
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.com__service-button > label:hover {
+  border-color: #3e20ef;
+  color: #3e20ef;
+}
+
+.com__service-button > input[type="radio"]:checked + label {
+  border-color: #3e20ef;
+  background-color: #3e20ef;
+  color: #ffffff;
+}
+
+.homepage__contact-form-input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  font-size: 16px;
+  text-align: left;
+  color: #373e5f;
+  margin: 4px 2px;
+  padding: 10px 12px;
+  background: none;
+}
+
+.homepage__contact-form-input:focus {
+  outline: none;
+}
+
+.homepage__contact-submit {
+  font-weight: 500;
+
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.homepage__contact-submit:hover {
+  border-color: #3e20ef;
+  color: #3e20ef;
+}
+
+.homepage__contact-submit:focus {
+  border-color: #3e20ef;
+  background-color: #3e20ef;
+  color: #ffffff;
+}
