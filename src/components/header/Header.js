@@ -23,14 +23,22 @@ function Header() {
               >
                 Home
               </C.Nav.Link>
-              <C.Nav.Link className='px-3 com__header-link' href='/#games'>
+              <C.Nav.Link
+                className={`px-3 com__header-link ${location === "/#games" && "active"}`}
+                href='/#games'
+              >
                 Games
               </C.Nav.Link>
-              <C.Nav.Link className='px-3 com__header-link' href='/#about'>
+              <C.Nav.Link
+                className={`px-3 com__header-link ${location === "/#about" && "active"}`}
+                href='/#about'
+              >
                 About Us
               </C.Nav.Link>
               <C.Nav.Link
-                className='px-3 d-flex align-items-center com__header-contact'
+                className={`px-3 d-flex align-items-center com__header-contact ${
+                  location === "/#about" && "active"
+                }`}
                 href='/#contact'
               >
                 Contact Us
